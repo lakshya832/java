@@ -1,8 +1,7 @@
 package com.demo.datatypes;
 
 public class test {
-    public static void main(String[] args) {
-        int a = 1;
+     static void main(String[] args) {
         byte b = 1;
         long c = 1;
 
