@@ -2,8 +2,9 @@ package com.demo.oops;
 
 public class test {
     public static void main(String[] args){
-        Car car = new Car("White");
+        Car car = new Car();
         car.speed = 69;
+        car.color = "White";
         car.drive();
         System.out.println(car.color);
     }
