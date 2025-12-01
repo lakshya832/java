@@ -1,7 +1,5 @@
 package com.demo.datatypes;
 
-import java.sql.SQLOutput;
-
 public class Test {
      static void main(String[] args) {
         String a = "Hello!";
