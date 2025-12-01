@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/com/demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/com/demo/controlflow" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/com/demo/oops" vcs="Git" />
   </component>
 </project>

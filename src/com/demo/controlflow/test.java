@@ -13,7 +13,7 @@ public class test {
         isRaining = false;
         System.out.println("Beach Day = " + !isRaining);//true
 
-        isWarm = false;;
+        isWarm = false;
         if(isSnowing && isWarm){
             System.out.println("Beach Day");
         } else {
