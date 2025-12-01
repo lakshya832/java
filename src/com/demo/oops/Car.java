@@ -4,7 +4,8 @@ public class Car {
     int speed;
     String color;
 
-    Car(){
+    Car(String color){
+        this.color = color;
     }
 
     void drive(){
