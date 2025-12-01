@@ -16,5 +16,6 @@ public class Test {
         System.out.println(Integer.toBinaryString(z));//=1010
         int x = 5, y = 3;
         System.out.println(Integer.toBinaryString(x&y));//1
+        System.out.println(Integer.toBinaryString(x|y));//111
      }
 }
