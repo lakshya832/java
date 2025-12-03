@@ -31,3 +31,24 @@ class Dog extends Animal{
     }
 }
 
+interface Mobile{
+    int numofbattries = 1;
+    void makeCall();
+}
+
+interface GPS{
+    void navigation();
+}
+
+class Phone implements Mobile, GPS{
+
+    @Override
+    public void makeCall() {
+        System.out.println("Calling...");
+    }
+
+    @Override
+    public void navigation(){
+        System.out.println("navigating... ");
+    }
+}
